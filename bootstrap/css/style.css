@@ -1,0 +1,416 @@
+body{
+    background-color: rgb(251,249,250);
+}
+
+#tab-full .row>[class*=col]{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#tab-full .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#tab-full{
+/*    margin-left: 0;*/
+/*    margin-right: 0;*/
+}
+
+
+
+
+/********** Titre Tableau **********/
+.tab-top{
+    background: #bb7d88;
+    text-align: center;
+    color: aliceblue;
+    padding: 0;
+    
+}
+#row-tab > div.col-xs-3.tab-top>span{
+    display: inline-block;
+    height: 66px;
+    line-height: 66px;
+    font-size: 23px;
+    text-align: center;
+}
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1),
+#row-tab  div.col-md-9.tab-top  div:nth-child(1){
+    height: 66px;
+    line-height: 66px;
+}
+
+#row-tab  div.col-md-9.tab-top  div:nth-child(1) span{
+    font-size: 30px;
+    line-height: 66px
+}
+#row-tab  div.col-md-9.tab-top  div:nth-child(7) span{
+    font-size: 20px;
+    line-height: 66px
+}
+
+#row-tab  div.col-md-9.tab-top  div:nth-child(2) span{
+    background: url(../..//images/sprites.png) no-repeat;
+    display: inline-block;
+    background-position: 0 -2px ;
+	width: 56px;
+	height: 32px;
+    margin-top: 17px;
+}
+
+#row-tab  div.col-md-9.tab-top  div:nth-child(3) span{
+    background: url(../..//images/sprites.png) no-repeat;
+    display: inline-block;
+    background-position: -73px -1px ;
+	width: 59px;
+	height: 35px;
+    margin-top: 17px;
+}
+
+#row-tab  div.col-md-9.tab-top  div:nth-child(4) span{
+    background: url(../..//images/sprites.png) no-repeat;
+    display: inline-block;
+    background-position: -145px -1px ;
+	width: 53px;
+	height: 31px;
+    margin-top: 17px;
+}
+#row-tab  div.col-md-9.tab-top  div:nth-child(5) span{
+    background: url(../..//images/sprites.png) no-repeat;
+    display: inline-block;
+    background-position: -214px 0;
+	width: 80px;
+	height: 36px;
+    margin-top: 17px;
+}
+#row-tab  div.col-md-9.tab-top  div:nth-child(6) span{
+   background: url(../..//images/sprites.png) no-repeat;
+    display: inline-block;
+    width: 46px;
+	height: 37px;
+    margin-top: 17px;
+}
+
+/********** Fin Titre Tableau **********/
+
+
+/********** Titre Salons **********/
+.violet{
+    background-color: rgb(69,27,77);
+    color: aliceblue;
+}
+/********** Fin Titre Salons **********/
+
+
+
+/************************************* PC *************************************/
+
+/*** Reset des padding et margin des cellules et colones ***/
+#tab-full-jardin div,#tab-full-peintures div, #tab-full-musiciens div, #tab-full-ecrivains div {
+    padding: 0;
+    margin: 0
+}
+
+/*** Cellules ***/
+#tab-full-jardin>div.row >div.col-xs-12>div.hidden-xs,
+#tab-full-peintures>div.row >div.col-xs-12>div.hidden-xs,
+#tab-full-musiciens>div.row >div.col-xs-12>div.hidden-xs,
+#tab-full-ecrivains>div.row >div.col-xs-12>div.hidden-xs,
+#tab-full-jardin>div.row >div.hidden-xs>div,
+#tab-full-peintures>div.row >div.hidden-xs>div,
+#tab-full-musiciens>div.row >div.hidden-xs>div,
+#tab-full-ecrivains>div.row >div.hidden-xs>div
+{
+    text-align: center;
+    padding: 7px 0;
+    border-left: 2px dotted #451B4D;
+}
+
+#tab-full-jardin > div.col-xs-12.violet span,
+#tab-full-peintures > div.col-xs-12.violet span,
+#tab-full-musiciens > div.col-xs-12.violet span,
+#tab-full-ecrivains > div.col-xs-12.violet span{
+    padding: 5px 0 5px 35px;
+    text-decoration: underline;
+}
+
+/*** Titre "SALLES" ***/
+#row-tab > div.col-xs-12.col-sm-12.col-md-3.tab-top{
+    height: 66px;
+    line-height: 66px;
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+#row-tab > div.col-xs-9.hidden-xs.hidden-sm.col-md-9.tab-top > div:nth-child(7){
+    
+}
+.middle{
+    position: absolute;
+    top: 0;
+    right: 0; 
+    padding: 23px 0 !important;
+    background-color: #FBF9FA;
+    border-left: 2px dotted #451B4D;
+}
+
+.double{
+    position: relative;
+}
+
+.middle-bottom{
+    border-bottom: 2px dotted #451B4D;
+}
+
+div > div.col-xs-12.col-sm-12.col-md-3 > div.hidden-xs.hidden-sm.col-md-12.col-lg-12{
+    border-left: 0 !important;
+}
+/************************************* Fin PC *************************************/
+
+
+
+
+
+
+/************************************* Mobile *************************************/
+
+#tab-full-jardin>.row .row> div.col-xs-6:nth-child(2),
+#tab-full-peintures>.row .row> div.col-xs-6:nth-child(2),
+#tab-full-musiciens>.row .row> div.col-xs-6:nth-child(2),
+#tab-full-ecrivains>.row .row> div.col-xs-6:nth-child(2){
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+
+/*** Mise en place des sélecteurs CSS pour différencier les lignes par des couleurs différentes ***/
+#tab-full-jardin>.row .row:nth-child(2)> div.col-xs-6:nth-child(2),
+#tab-full-jardin>.row .row:nth-child(4)> div.col-xs-6:nth-child(2),
+#tab-full-jardin>.row .row:nth-child(6)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(251,249,250);
+}
+
+#tab-full-jardin>.row .row:nth-child(1)> div.col-xs-6:nth-child(2),
+#tab-full-jardin>.row .row:nth-child(3)> div.col-xs-6:nth-child(2),
+#tab-full-jardin>.row .row:nth-child(5)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(235,235,235);
+}
+
+/*** peintures ***/
+#tab-full-peintures>.row .row:nth-child(2)> div.col-xs-6:nth-child(2),
+#tab-full-peintures>.row .row:nth-child(4)> div.col-xs-6:nth-child(2),
+#tab-full-peintures>.row .row:nth-child(6)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(251,249,250);
+}
+
+#tab-full-peintures>.row .row:nth-child(1)> div.col-xs-6:nth-child(2),
+#tab-full-peintures>.row .row:nth-child(3)> div.col-xs-6:nth-child(2),
+#tab-full-peintures>.row .row:nth-child(5)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(235,235,235);
+}
+
+/*** musiciens ***/
+#tab-full-musiciens>.row .row:nth-child(2)> div.col-xs-6:nth-child(2),
+#tab-full-musiciens>.row .row:nth-child(4)> div.col-xs-6:nth-child(2),
+#tab-full-musiciens>.row .row:nth-child(6)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(251,249,250);
+}
+
+#tab-full-musiciens>.row .row:nth-child(1)> div.col-xs-6:nth-child(2),
+#tab-full-musiciens>.row .row:nth-child(3)> div.col-xs-6:nth-child(2),
+#tab-full-musiciens>.row .row:nth-child(5)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(235,235,235);
+}
+
+/*** ecrivains ***/
+
+#tab-full-ecrivains>.row .row:nth-child(2)> div.col-xs-6:nth-child(2),
+#tab-full-ecrivains>.row .row:nth-child(4)> div.col-xs-6:nth-child(2),
+#tab-full-ecrivains>.row .row:nth-child(6)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(251,249,250);
+}
+
+#tab-full-ecrivains>.row .row:nth-child(1)> div.col-xs-6:nth-child(2),
+#tab-full-ecrivains>.row .row:nth-child(3)> div.col-xs-6:nth-child(2),
+#tab-full-ecrivains>.row .row:nth-child(5)> div.col-xs-6:nth-child(2)
+{
+    background-color: rgb(235,235,235);
+}
+/*** Fin Mise en place des sélecteurs CSS pour différencier les lignes par des couleurs différentes ***/
+
+
+.row > div:nth-child(3) > div.col-xs-12.col-sm-12.col-md-3.pair > div.hidden-xs.hidden-sm.col-md-12.col-lg-12,
+.row > div:nth-child(3) > div.hidden-xs.hidden-sm.col-md-9,
+.row > div:nth-child(5) > div.col-xs-12.col-sm-12.col-md-3.pair > div.hidden-xs.hidden-sm.col-md-12.col-lg-12,
+.row > div:nth-child(5) > div.hidden-xs.hidden-sm.col-md-9,
+.row > div:nth-child(7) > div.col-xs-12.col-sm-12.col-md-3.pair > div.hidden-xs.hidden-sm.col-md-12.col-lg-12,
+.row > div:nth-child(7) > div.hidden-xs.hidden-sm.col-md-9
+{
+    background-color: rgb(235,235,235);
+}
+
+ /*** Couleur Nom salons lignes + volumes + icones download + icones salons ***/
+#tab-full-jardin>.row .row>.col-xs-3,
+#tab-full-peintures>.row .row>.col-xs-3,
+#tab-full-musiciens>.row .row>.col-xs-3,
+#tab-full-ecrivains>.row .row>.col-xs-3,
+#tab-full-jardin>.row .row> div.col-xs-6:nth-child(1),
+#tab-full-peintures>.row .row> div.col-xs-6:nth-child(1),
+#tab-full-musiciens>.row .row> div.col-xs-6:nth-child(1),
+#tab-full-ecrivains>.row .row> div.col-xs-6:nth-child(1){
+      background-color: #BB7D88;
+    text-align: center;
+}
+
+    /*** Nom SALONS + Volumes pieces + Icone download ***/
+#tab-full-jardin>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-peintures>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-musiciens>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-ecrivains>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-jardin .row .row >div.col-xs-3,
+#tab-full-peintures .row .row >div.col-xs-3,
+#tab-full-musiciens .row .row >div.col-xs-3,
+#tab-full-ecrivains .row .row >div.col-xs-3
+{
+    background-color: #EBEBEB;
+    height: 30px;
+    line-height: 30px;
+}
+
+#tab-full-jardin>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-peintures>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-musiciens>.row .row:nth-child(1)> div.col-xs-6:nth-child(1),
+#tab-full-ecrivains>.row .row:nth-child(1)> div.col-xs-6:nth-child(1){
+    text-decoration: underline;
+    color: rgb(69, 27, 77);
+}
+/*** Fin Couleur Nom salons lignes + volumes + icones download + icones salons ***/
+
+
+/*** ***/
+#tab-full-jardin>.row>.col-xs-12>.row,
+#tab-full-peintures>.row>.col-xs-12>.row,
+#tab-full-musiciens>.row>.col-xs-12>.row,
+#tab-full-ecrivains>.row>.col-xs-12>.row,
+#tab-full-jardin>.row>.col-md-3>.col-xs-12,
+#tab-full-peintures>.row>.col-md-3>.col-xs-12,
+#tab-full-musiciens>.row>.col-md-3>.col-xs-12,
+#tab-full-ecrivains>.row>.col-md-3>.col-xs-12{
+    border-bottom: 3px dotted rgb(69, 27, 77);
+    margin-top:3px;
+}
+
+
+/*** Images dispositions salons ***/
+
+.ico-dispo1 span{
+    background: url(../../images/sprites.png) no-repeat;
+    zoom:0.4;
+    -moz-transform:scale(0.3);
+    -moz-transform-origin: 0 0;
+    display: inline-block;
+    line-height: 37px;
+    vertical-align: middle;
+    width: 46px;
+	height: 37px;
+/*    margin-top: 17px;*/
+}
+.ico-dispo1,.ico-dispo2,.ico-dispo3,.ico-dispo4,.ico-dispo5,.ico-dispo6{
+    height: 25px;
+    line-height: 25px;
+}
+
+.ico-dispo2 span{
+    background: url(../../images/sprites.png) no-repeat;
+    background-position: -73px -1px;
+	width: 59px;
+	height: 35px;
+    zoom:0.4;
+    -moz-transform:scale(0.3);
+    -moz-transform-origin: 0 0;
+    display: inline-block;
+    line-height: 37px;
+    vertical-align: middle;
+/*    margin-top: 17px;*/
+}
+
+.ico-dispo3 span{
+    background: url(../../images/sprites.png) no-repeat;
+    background-position: -145px -1px ;
+	width: 53px;
+	height: 31px;
+    zoom:0.4;
+    -moz-transform:scale(0.3);
+    -moz-transform-origin: 0 0;
+    display: inline-block;
+    line-height: 37px;
+    vertical-align: middle;
+/*    margin-top: 17px;*/
+}
+
+.ico-dispo4 span{
+    background: url(../../images/sprites.png) no-repeat;
+	background-position: -214px 0;
+	width: 80px;
+	height: 36px;
+    zoom:0.4;
+    -moz-transform:scale(0.3);
+    -moz-transform-origin: 0 0;
+    display: inline-block;
+    line-height: 37px;
+    vertical-align: middle;
+/*    margin-top: 17px;*/
+}
+
+.ico-dispo5 span{
+    background: url(../../images/sprites.png) no-repeat;
+	background-position: -316px -1px ;
+	width: 46px;
+	height: 37px;
+    zoom:0.4;
+    -moz-transform:scale(0.3);
+    -moz-transform-origin: 0 0;
+    display: inline-block;
+    line-height: 37px;
+    vertical-align: middle;
+/*    margin-top: 17px;*/
+}
+
+.ico-dl>a>span{
+    background: url(../../images/download.png) no-repeat center;
+    width:30px;
+    display: inline-block;
+    height: 30px;
+}
+
+.row>.row>div.col-xs-12>.ico-dl{
+    width: 8%;
+    height: 30px;
+}
+
+.row>.row>div.hidden-xs>.ico-dl > span{
+    background: url(../../images/download.png) no-repeat center;
+    width:20px;
+    display: inline-block;
+    height: 20px;
+    zoom:0.7;
+    cursor:pointer;
+}
+/*** fin images dispositions ***/
+
+
+
+
